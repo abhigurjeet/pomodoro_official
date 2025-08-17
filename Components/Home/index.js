@@ -23,7 +23,7 @@ function App() {
   };
   useEffect(() => {
     if (!isLoading && user) {
-      router.push("/task");
+      router.push("/pomo");
     }
   }, [isLoading, user, router]);
 

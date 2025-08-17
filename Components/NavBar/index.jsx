@@ -11,7 +11,7 @@ export default function NavBar() {
 
   return (
     <div className={styles.header}>
-      <Link href="/">
+      <Link href="/pomo">
         <h1>Pomodoro</h1>
       </Link>
       <div className={styles.navbar}>
