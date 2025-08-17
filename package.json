@@ -24,6 +24,7 @@
     "graphql-scalars": "^1.22.2",
     "graphql-yoga": "^4.0.3",
     "grommet": "^2.32.2",
+    "lucide-react": "^0.539.0",
     "micro-cors": "^0.1.1",
     "next": "^14.1.0",
     "node-fetch": "^3.3.2",
