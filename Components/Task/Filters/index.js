@@ -29,15 +29,15 @@ export default function Filters() {
     <div className={styles.filter}>
       <select value={selectedStatus} onChange={handleStatusChange}>
         <option value="" disabled hidden>
-          Task Status
+          Status
         </option>
-        <option value="completed">Tasks Completed</option>
-        <option value="pending">Tasks Pending</option>
-        <option value="all">Total Tasks</option>
+        <option value="completed">Completed</option>
+        <option value="pending">Pending</option>
+        <option value="all">Tasks</option>
       </select>
       <select value={sortDate} onChange={handleSortDateChange}>
         <option value="" disabled hidden>
-          Sort by Date
+          Date
         </option>
         <option value="ascending">New first</option>
         <option value="descending">Older first</option>

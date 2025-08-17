@@ -11,6 +11,9 @@
     height:100%;
 }
 .statsbox{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
     background-color:white;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     border-radius:10px;
@@ -26,7 +29,7 @@
     color:#f5ba13;
 }
 .bar{
-    height:50vh;
+    height:69vh;
     width:50vw;
     background-color:white;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -39,7 +42,7 @@
     } 
     .statsbox{
         height:20vh;
-        width:80%;
+        width:90%;
         margin:10px auto;
         font-size:70%;
         justify-content: space-evenly;
@@ -48,7 +51,7 @@
         margin:0;
     }
     .bar{
-        width:85vw;
+        width:90vw;
         height:40vh;
         margin:10px auto;
     }

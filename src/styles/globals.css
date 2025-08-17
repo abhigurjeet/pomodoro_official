@@ -26,7 +26,8 @@ hr{
     margin:0;
   }
   a h1{
-    font-size:95%;
+    font-size:28px;
+    margin: 0px 0 6px 0px;
     text-align: center;
   }
 }

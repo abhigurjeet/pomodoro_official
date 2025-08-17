@@ -7,3 +7,9 @@
     display:flex;
   }
   
+.active {
+  border-bottom: 2px solid white;
+}
+.inactive {
+  border-bottom: 0px;
+}
