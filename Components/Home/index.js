@@ -82,9 +82,12 @@ function App() {
                       Sign In
                       <ArrowRight size={20} />
                     </button>
-                    <button className="secondary-button" disabled>
-                      Guest mode
-                    </button>
+                    <div className="button-wrapper">
+                      <button className="secondary-button" disabled>
+                        Guest Mode
+                      </button>
+                      <span className="coming-soon">Coming Soon</span>
+                    </div>
                   </div>
                 </div>
                 <div className="hero-visual">
@@ -333,9 +336,12 @@ function App() {
                     Sign In
                     <ArrowRight size={20} />
                   </button>
-                  <button className="cta-secondary" disabled>
-                    Guest Mode
-                  </button>
+                  <div className="button-wrapper">
+                      <button className="secondary-button" disabled>
+                        Guest Mode
+                      </button>
+                      <span className="coming-soon">Coming Soon</span>
+                    </div>
                 </div>
               </div>
             </div>
